@@ -21,7 +21,10 @@
     "url": "https://github.com/vstepanyuk/koa-ouch/issues"
   },
   "homepage": "https://github.com/vstepanyuk/koa-ouch#readme",
-  "engines" : {
+  "engines": {
     "node": ">=4"
+  },
+  "dependencies": {
+    "ouch": "^0.2.0-beta"
   }
 }
