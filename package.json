@@ -1,6 +1,6 @@
 {
   "name": "koa-ouch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "koa ouch error handler",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/vstepanyuk/koa-ouch.git"
+    "url": "https://github.com/vstepanyuk/koa-ouch"
   },
   "keywords": [
     "koa",
