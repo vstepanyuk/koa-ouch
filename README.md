@@ -2,11 +2,13 @@
 koa ouch error handler
 
 # Install
-`npm i koa-ouch`
+```bash
+npm i koa-ouch
+```
 
 # Usage
 
-```
+```js
 var koa = require('koa');
 var app = koa();
 
@@ -16,6 +18,8 @@ errorHandler(app);
 ```
 
 # Options
-`errorHandler(app, options)`
+```js
+errorHandler(app, options)
+```
 
 - ***theme***: 'orange' or 'blue', _default: 'orange'_
