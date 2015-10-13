@@ -2,10 +2,10 @@
 
 const Ouch = require('ouch')
 
-module.exports = (app, options) => {
+module.exports = function (app, options) {
   const opts = Object.assign({theme: 'orange'}, options || {})
 
-  app.context.onerror = (err) => {
+  app.context.onerror = function (err) {
     // If there is no error then skip
     if (!err) return;
 
