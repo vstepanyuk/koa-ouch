@@ -1,6 +1,6 @@
 {
   "name": "koa-ouch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "koa ouch error handler",
   "main": "index.js",
   "scripts": {
